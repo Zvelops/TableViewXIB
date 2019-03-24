@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var testData = ["Dog", "Cat", "Monkey", "Lion", "Sheep"]
+    
+    let massage = "Hello World"
 
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
